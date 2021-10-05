@@ -103,3 +103,4 @@ modules.xml
 
 **/node_modules
 **/jasmine.json
+**/.idea/vcs.xml
