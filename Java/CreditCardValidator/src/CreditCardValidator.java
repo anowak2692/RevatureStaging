@@ -7,7 +7,7 @@ public class CreditCardValidator {
 
     public static boolean validateCard(long cardNumber){
         //Check the number of digits
-        if(cardNumber >= (Math.pow(10, 13)) && cardNumber < (Math.pow(10, 18))){
+        if(cardNumber >= (Math.pow(10, 13)) && cardNumber < (Math.pow(10, 19))){
             //Store the check digit for the end
             int checkDigit = (int) (cardNumber % 10);
             cardNumber /= 10;

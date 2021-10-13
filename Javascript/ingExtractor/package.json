@@ -1,0 +1,14 @@
+{
+  "name": "ingextractor",
+  "version": "1.0.0",
+  "description": "A program to extract non-monosyallabic words that end with -ing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Alex Nowak",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.9.0"
+  }
+}
