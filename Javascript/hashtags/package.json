@@ -1,0 +1,14 @@
+{
+  "name": "hashtags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hashtags.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Alex Nowak",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.10.0"
+  }
+}

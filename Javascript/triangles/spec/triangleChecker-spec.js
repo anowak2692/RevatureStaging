@@ -20,4 +20,9 @@ describe("Test suite for Triangle class", () => {
         let result = Triangles.checkFit([1, 2, 4], [1, 2, 6]);
         expect(result).toBeFalse();
     })
+
+    it('should return true when given [50, 36, 27] and [30, 40, 50]', () => {
+        let result = Triangles.checkFit([50, 36, 27], [30, 40, 50]);
+        expect(result).toBeTrue();
+    })
 })
